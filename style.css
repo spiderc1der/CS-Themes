@@ -1,0 +1,224 @@
+/* change overall look of site, replacing images and changing background &
+   highlight colors */
+
+/* Background color */
+
+body {
+    color: #FF83C4 !important;
+    background-color: #FF83C4 !important ;
+}
+
+html, body {
+    color: #FF83C4 !important;
+    background-color: #FF83C4 !important;
+}
+
+/* Navbar color */
+.navbar {
+    background-color: #FFE3F1 !important;
+}
+
+/* Left and right repeating border image */
+div.body_l, div.body_r {
+    top: 0 !important;
+    bottom: 0 !important;
+    width: 54px !important;
+    position: absolute !important;
+    background-repeat: repeat-y !important;
+    background-image: url(https://i.imgur.com/6d0URXY.png) !important;
+}
+
+
+/* Textbox color (same as navbar) */
+.bg4 {
+    background-color: #FFE3F1 !important;
+    color: #AC005A !important; /* Text color */
+}
+
+.accentbox, .newsitem .date, .cstable th, .widgetpanel, .adoptchoicebox, .tradepetsbox, body.frontpage #newssub, body.storecategory .store-line-release, body.archive .archive-pet-tree td, body.archive .archive-pet-tree th, body.archive .years .active, body.archive .kinds .kind, body.archive .events, body.archive .species, body.archive .archive-item-group td, body.archive .archive-item-group th {
+    background-color: #FFCBE6 !important;
+}
+
+/* Header image */
+.headerbar {
+    margin: 0 auto;
+    width: 747px;
+    height: 230px;
+    position: relative;
+    background-image: url(https://i.imgur.com/5P8e5ru.png) !important;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+    z-index: 100;
+}
+
+#main-menu > li > a, #main-menu > li > ul {
+    background-color: #FFE3F1 !important;
+    border: 1px solid #FF83C4 !important;
+}
+
+/* Text colors */
+
+.content h2, .panel h2 {
+    color: #730440 !important;
+    border-bottom-color: #FFFFFF !important;
+}
+
+
+
+h3 {
+    border-bottom-color: #FFFFFF !important;
+}
+
+/* Oekaki */
+
+.ok-topic-head-image img {
+    padding: 8px;
+    background: #C9257B !important;
+    max-height: 600px;
+  }
+
+  div.rules {
+    background-color: #EAD4E2 !important;
+    color: #75292d;
+}
+
+
+/* Liner color of drawing pages */
+.liner {
+    background-color: #FFCBE6 !important;
+}
+
+.liner .post {
+    border: 1px solid #FF83C4 !important;
+}
+
+.bg1 {
+    background-color: #FFE3F1 !important;
+}
+
+.bg2 {
+    background-color: #FFEEF6 !important;
+}
+
+
+
+/* Forum pages */
+.motd dt {
+    background-color: #FFCBE6 !important;
+}
+
+
+.forabg, .forumbg {
+    background-color: #FFCBE6 !important;
+}
+
+.bg4 {
+    background-color: #FFE3F1 !important;
+    color: #222;
+  }
+  /* Accent */
+  .bg5,
+  #qr_editor_div,
+  #qr_showeditor_div {
+    background-color: #FFE3F1 !important;
+    color: #222222;
+  }
+
+
+  .panel.bg2,
+  .panel.bg3 {
+    background-color: #FFCBE6 !important;
+  }
+
+  /* Corner images */
+
+  /* Right */
+  span.corners-top span, span.corners-bottom span {
+    background-image: url(https://i.imgur.com/oFtUffO.png) !important;
+}
+
+/* Left */
+span.corners-top, span.corners-bottom {
+    background-image: url(https://i.imgur.com/PUL4W8c.png) !important;
+}
+
+/* Navigation */
+#main-menu > li > a > img {
+    display: block;
+    width: 100%;
+    background-image: url(https://i.imgur.com/G2XkIdd.png) !important;
+    background-repeat: no-repeat;
+}
+
+
+/* 'My account tabs' */
+
+#tabs a {
+    background-image: url(https://i.imgur.com/HOLhLDL.png) !important;
+}
+
+#tabs a span {
+    background-image: url(https://i.imgur.com/l5a7rpD.png) !important;
+}
+
+/* Panels */
+
+.panel,
+#whoisonline,
+#maintenance-banner {
+  background-color: #FFE3F1 !important;
+  color: #28313F;
+}
+
+body.cs .item-category-tabs .subcategory-tabs, body.cs .item-category-tabs .category-body {
+    background: #FFE3F1 !important;
+}
+
+.subcategory-tabs ul.ui-tabs-nav li.ui-state-active {
+    background-color: #FFCBE6 !important;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: 1px solid #FFCBE6 !important;
+    background: #FFCBE6 url(https://i.imgur.com/MhocL4b.png) 50% 50% repeat-x !important;
+    font-weight: normal;
+    color: #212121;
+}
+
+
+body.edittrade .petsection, body.edittrade .rulessection {
+    border: 2px solid #E0218A !important;
+    background-color: #FFCBE6 !important;
+}
+
+body.edittrade .petsection .header, body.edittrade .petsection .actions a {
+    color: #eee;
+    background-color: #E0218A !important;
+}
+
+
+.nav-adopt-new {
+    background: url(https://i.imgur.com/B7fcLFr.png) no-repeat !important; 
+}
+
+.btn.btn-cs-fancy {
+    background-color: #FFE3F1 !important;
+}
+
+ul.forums li.row:hover {
+    background-color: #E0218A !important;
+}
+
+.helpsectionlist li ul li :hover {
+    background-color: #FFCBE6 !important;
+}
+
+body.edittrade .petsection .actions a:hover {
+    background-color: #FF83C4 !important;
+}
+
+.btn.btn-cs-dull {
+    color: #404040 !important;
+    background-color: #FFE3F1 !important;
+}
+
